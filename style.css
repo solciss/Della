@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(223, 213, 181, 0.61);
+}    
+
+    .estilotitulo {
+        color:rgb(0, 0, 0);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+.titularprincipal{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(134, 122, 105);
+}
+
+    .logo {
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    li{
+        list-style: none;
+        margin: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    a{
+        text-decoration: none;
+    }
+.bloque-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 250px;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img_producto{
+    width: 200px;
+    height: auto;
+}
+
+.productos{
+    box-shadow: 5px 5px 5px grey;
+    width: 300px;
+    height: auto;
+    background-color: aliceblue;
+    margin: 20px;
+    
+    }
+
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.iconoredes{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+.bloque-nos{
+    margin: 100px;  
+}
+
+
+
+.bloque-prod-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloque-prod-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-index{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+}
